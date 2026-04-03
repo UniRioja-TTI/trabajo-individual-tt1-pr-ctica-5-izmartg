@@ -25,7 +25,7 @@ public class ServicioContacto implements InterfazContactoSim {
 
     public ServicioContacto() {
         conexion = Configuration.getDefaultApiClient();
-        conexion.setBasePath("http://localhost:8081");
+        conexion.setBasePath("http://serviciott1:8080");
 
         Entidad mono = new Entidad();
         mono.setId(1);
