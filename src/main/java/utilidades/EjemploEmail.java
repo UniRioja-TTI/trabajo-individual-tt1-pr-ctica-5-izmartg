@@ -9,7 +9,7 @@ import org.openapitools.client.api.EmailApi;
 public class EjemploEmail {
     public static void main(String[] args) {
         ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("http://localhost:8080");
+        defaultClient.setBasePath("http://localhost:8081");
 
         EmailApi apiInstance = new EmailApi(defaultClient);
         String emailAddress = "emailAddress_example"; // String |

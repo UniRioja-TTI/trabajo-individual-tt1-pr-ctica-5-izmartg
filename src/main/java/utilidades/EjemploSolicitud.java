@@ -10,7 +10,7 @@ import java.util.List;
 public class EjemploSolicitud {
     public static void main(String[] args) {
         ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("http://localhost:8080");
+        defaultClient.setBasePath("http://localhost:8081");
 
         SolicitudApi solicitudApi = new SolicitudApi(defaultClient);
         String nombre = "Izai";
